@@ -1,0 +1,18 @@
+.App{
+  display: grid;
+  place-items: center;
+  background-color: rgb(220, 220, 220);
+  height: 100vh;
+} 
+.app-body{
+  display: flex;
+  height: 95vh;
+  width: 95vw;
+  border-radius: 30px;
+  background-color: rgb(231, 231, 231);
+  box-shadow: -1px 4px 20px -6px rgba(192, 189, 189, 0.7) ;
+}
+.disableScroll{
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
