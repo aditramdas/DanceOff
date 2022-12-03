@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Rightbar.css";
+import Webcam from "react-webcam";
 function Rightbar() {
   return (
     <div className="rightbar">
       <div className="header">
-        <p className="choose">Hello</p>
+        <button className="choose">Hello</button>
       </div>
-      <div className="webcam"></div>
+      <div className="webcam">
+        <Webcam
+          style={{
+            position: "relative",
+            margin: "auto",
+            top: "130px",
+            left: "170px",
+            width: 640,
+            height: 480,
+          }}
+        />
+      </div>
     </div>
   );
 }

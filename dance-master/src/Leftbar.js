@@ -1,15 +1,22 @@
 import React from "react";
 import "./Leftbar.css";
-
+import video from "./benchmark_dance.mp4";
 function Leftbar() {
   return (
     <div className="leftbar">
       <div className="upper">
-        <p className="video1">Video</p>
+        <video
+          className="video"
+          autoplay="true"
+          disablepictureinpicture
+          width="400"
+          height="500"
+          controls
+        >
+          <source src={video} type="video/mp4" />
+        </video>
       </div>
-      <div className="bottom">
-        <p className="video1">Video</p>
-      </div>
+      <div className="bottom"></div>
     </div>
   );
 }
