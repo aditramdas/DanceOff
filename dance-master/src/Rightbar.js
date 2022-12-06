@@ -5,7 +5,7 @@ function Rightbar() {
   return (
     <div className="rightbar">
       <div className="header">
-        <button className="choose">Hello</button>
+        <button className="choose">Teacher 1</button>
       </div>
       <div className="webcam">
         <Webcam

@@ -11,4 +11,12 @@
 }
 .choose{
     margin: auto;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(255, 195, 42);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
 }
