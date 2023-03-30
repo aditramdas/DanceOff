@@ -10,7 +10,7 @@ ashamed of going to a mentor and learning dance at this age, or he/she may have 
 and not find enough time for it. On the other hand, there are many unknown choreographers with
 amazing talents who don’t find the right customers and are hence getting paid less.
 
-# Project Description
+## Project Description
 
 Our idea is an ML based app, which not only shows us the dance steps, but also shows the level
 of correctness with which the steps were performed by the user, i.e. an app which not only
