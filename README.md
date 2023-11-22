@@ -1,5 +1,5 @@
 
-# WHackers-Dane Off
+# WHackers-Dance Off
 
 We have inculcated technology into everything around us, except for one thing: dance. Haven't
 you ever felt that you are not getting an opportunity to pursue a career as a dancer, not only as a
